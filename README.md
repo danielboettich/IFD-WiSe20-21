@@ -11,5 +11,5 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 
 ## Task 2 - Prototyping
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task2/2.1/Prototyping-HotGloo.md">Task 2.1</a>
-<br><a href="https://danielboettich.github.io/IFD-WiSe20-21/task2/2.2/">Task 2.2</a>  
+<br><a href="https://danielboettich.github.io/IFD-WiSe20-21/task2/2.2/Scribbles_Intranet.pdf">Task 2.2</a>  
 <br>Stand: 19.10.2020, 15:12 Uhr
