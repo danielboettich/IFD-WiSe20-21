@@ -10,6 +10,6 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 <br>Stand: 17.10.2020, 10:50 Uhr
 
 ## Task 2 - Prototyping
-<a href="#">Task 2.1</a>
+<a href="https://leosparenberg.github.io/IFD-WiSe20-21/task2/2.1/Prototyping-Tool.md">Task 2.1</a>
 <br><a href="https://github.com/danielboettich/IFD-WiSe20-21/tree/master/task2/2.2">Task 2.2</a>  
 <br>Stand: 19.10.2020, 15:12 Uhr
