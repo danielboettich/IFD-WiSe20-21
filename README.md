@@ -13,3 +13,7 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task2/2.1/Prototyping-HotGloo.md">Task 2.1</a>
 <br><a href="https://danielboettich.github.io/IFD-WiSe20-21/task2/2.2/Scribbles_Intranet.pdf">Task 2.2</a>  
 <br>Stand: 19.10.2020, 15:12 Uhr
+
+## Task 3 - High-Fid Prototype
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/task3/startseite.html">High Fidelity Prototype zu A2.2</a> 
+<br>Stand: 25.10.2020, 09:50 Uhr
