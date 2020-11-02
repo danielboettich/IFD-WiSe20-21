@@ -17,3 +17,8 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 ## Task 3 - High-Fid Prototype
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task3/startseite.html">High Fidelity Prototype zu A2.2</a> 
 <br>Stand: 25.10.2020, 09:50 Uhr
+
+## Task 4 - Prototyping eines Voice User Interfaces
+<a href="https://danielboettich.github.io/task4/task4_Variante 1_Dialogflow.pdf">Direktlink zum Dialog Flowchart</a> <br>
+<a href="#">Dokumentation</a> 
+<br>Stand: 02.11.2020, 16:50 Uhr
