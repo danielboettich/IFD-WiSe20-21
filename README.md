@@ -20,5 +20,5 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 
 ## Task 4 - Prototyping eines Voice User Interfaces
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task4/task4_Variante1_Dialogflow.pdf">Direktlink zum Dialog Flowchart</a> <br>
-<a href="#">Dokumentation</a> 
-<br>Stand: 02.11.2020, 16:50 Uhr
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/task4/IFD_A4_Boettcher.pdf">Dokumentation</a> 
+<br>Stand: 03.11.2020, 16:50 Uhr
