@@ -27,7 +27,6 @@ main {
 h2 {
   margin-bottom: 8rem;
   font-size: 5rem;
-  color: #707173;
 }
 
 .logo {
@@ -118,6 +117,7 @@ button:focus {
     #76b900 0%,
     #00644D 51%,
     #76b900 100%,
+
   );
 }
 .userInput,
