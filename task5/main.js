@@ -94,7 +94,7 @@ function init() {
       },
     },
 //------------------
-    { //frage 4 error
+    { //frage 4 läuft
       indexes: ['Welcher Dozent hält interfacedesign'],
       action: function () {
         const answer =
@@ -143,7 +143,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 6.1 error
+    { //gegenfrage 6.1 läuft
       indexes: ['Cool Weißt du ob das Buch Hochschule der Zukunft verfügbar ist'],
       action: function () {
         const answer = 'Ja. Das Buch von Ullrich Dittler ist momentan noch ausleihbar';
@@ -151,10 +151,6 @@ function init() {
         createNewMessageBox(answer, 'userOutput');
       },
     },
-
-    
-
-    
 
   ];
 
@@ -184,7 +180,7 @@ function init() {
     }
     startContinuousArtyom();
     const answer =
-      'Hey Benni, ich hoffe du hast gut schlafen. Wie geht es dir heute';
+      'Hallo Daniel du kleiner Bastard. Was willst du';
     artyom.say(answer);
     createNewMessageBox(answer, 'userOutput');
     artyom.redirectRecognizedTextOutput(function (recognized, isFinal) {
