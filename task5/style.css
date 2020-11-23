@@ -133,7 +133,6 @@ button:focus {
 
 .userOutput:hover,
 .userInput:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: rgb(112, 113, 115);
+  color: #fff;
   text-decoration: none;
 }
