@@ -29,6 +29,10 @@ h2 {
   font-size: 10rem;
 }
 
+.logo {
+  text-align: center;
+}
+
 .startScreen {
   margin: auto;
   text-align: center;
