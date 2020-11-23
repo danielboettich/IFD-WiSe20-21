@@ -6,7 +6,7 @@ function init() {
   const artyom = new Artyom();
   const commands = [
     { //StartUp
-      indexes: [ //frage 1
+      indexes: [ //frage 1 läuft
         'was erwartet mich heute',
         'Was steht an heute',
       ],
@@ -17,8 +17,8 @@ function init() {
       },
     },
 
-    {//gegenfrage 1.1
-      indexes: ['Wo findet Interface Design statt'],
+    {//gegenfrage 1.1 error
+      indexes: ['Wo findet IFD statt'],
       action: function () {
         const answer = 'im alfaview-Raum DM-05';
         artyom.say(answer);
@@ -26,8 +26,8 @@ function init() {
       },
     },
 
-    { //gegenfrage 1.2
-      indexes: ['Ist für Interface Design ein Praktikum eingeplant'],
+    { //gegenfrage 1.2 error
+      indexes: ['Ist für IFD ein Praktikum eingeplant'],
       action: function () {
         const answer = 'Ja, ein Praktikum ist laut Stundenplan angesetzt';
         artyom.say(answer);
@@ -35,7 +35,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 1.3  
+    { //gegenfrage 1.3 läuft 
       indexes: ['Sonstige Veranstaltungen heute'],
       action: function () {
         const answer = 'Ja, Projektstudium ab 13 Uhr 30';
@@ -44,7 +44,7 @@ function init() {
       },
     },
 //------------------
-    { //frage 2
+    { //frage 2 läuft
       indexes: ['Irgendwelche Abgaben in den nächsten Tagen'],
       action: function () {
         const answer =
@@ -54,8 +54,8 @@ function init() {
       },
     },
 
-    { //gegenfrage 2.1
-      indexes: ['Ja, bitte erinnere mich heute Mittag'],
+    { //gegenfrage 2.1 error
+      indexes: ['Ja bitte erinnere mich heute Mittag'],
       action: function () {
         const answer =
           'Okay, ich werde dich erinnern Diggi';
@@ -64,7 +64,7 @@ function init() {
       },
     },
 //------------------
-    { //frage 3
+    { //frage 3 läuft
       indexes: ['Habe ich neue Mails'],
       action: function () {
         const answer =
@@ -74,8 +74,8 @@ function init() {
       },
     },
 
-    { //gegenfrage 3.1
-      indexes: ['Von wem?'],
+    { //gegenfrage 3.1 error
+      indexes: ['Von wem'],
       action: function () {
         const answer =
           'Die Mail kommt von Prof. Hottong, der Betreff lautet "Streamingcamp fällt aus"';
@@ -84,8 +84,8 @@ function init() {
       },
     },
 
-    { //gegenfrage 3.2
-      indexes: ['Oh, super. Lies mir die Mail vor'],
+    { //gegenfrage 3.2 eror
+      indexes: ['Oh super Lies mir die Mail vor'],
       action: function () {
         const answer =
           'Hallo liebe Studierende. Ich mache es kurz - aufgrund von Corona wird das Streamingcamp ausfallen. Nähere Infos dann in der Vorlesung morgen. Beste Grüße, Prof. Hottong';
@@ -94,17 +94,17 @@ function init() {
       },
     },
 //------------------
-    { //frage 4
-      indexes: ['Welcher Dozent hält Streaminganwendungen'],
+    { //frage 4 error
+      indexes: ['Welcher Dozent hält IFD'],
       action: function () {
         const answer =
-          'Streaminganwendungen wird von Prof. Hottong gehalten';
+          'Interface Design wird von Prof. Dr. Rausch gehalten';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
 //------------------
-    { //frage 5
+    { //frage 5 läuft
       indexes: ['Was gibt es heute in der Mensa'],
       action: function () {
         const answer =
@@ -114,8 +114,8 @@ function init() {
       },
     },
 
-    { //gegenfrage 5.1
-      indexes: ['Ja, bitte'],
+    { //gegenfrage 5.1 error
+      indexes: ['Ja bitte'],
       action: function () {
         const answer = 'Gern. Für welches Essen soll ich dich anmelden';
         artyom.say(answer);
@@ -123,7 +123,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 5.2
+    { //gegenfrage 5.2 läuft
       indexes: ['Bitte für Spaghetti Carbonara'],
       action: function () {
         const answer = 'Okay. Du bist angemeldet. Die Mensa ist ab 11 Uhr 30 geöffnet';
@@ -133,7 +133,7 @@ function init() {
     },
 
 //------------------
-    { //frage 6
+    { //frage 6 läuft
       indexes: ['hat die Bibliothek heute geöffnet'],
       action: function () {
         const answer =
@@ -143,8 +143,8 @@ function init() {
       },
     },
 
-    { //gegenfrage 6.1
-      indexes: ['Cool. Weißt du ob das Buch Einstieg in die Medienkommunikationslehre von Christoph Zydorek verfügbar ist'],
+    { //gegenfrage 6.1 error
+      indexes: ['Cool Weißt du ob das Buch Einstieg in die Medienkommunikationslehre von Christoph Zydorek verfügbar ist'],
       action: function () {
         const answer = 'Ja. Das Buch ist momentan noch ausleihbar';
         artyom.say(answer);
