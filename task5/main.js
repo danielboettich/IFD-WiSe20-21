@@ -7,11 +7,11 @@ function init() {
   const commands = [
     {
       indexes: [
-        'kannst du mir sagen was heute alles ansteht',
-        'kannst du mich auf den aktuellen Stand bringen',
+        'was erwartet mich heute',
+        'Was steht an heute',
       ],
       action: function () {
-        const answer = 'sehr gerne, mit was soll ich beginnen';
+        const answer = 'heute erwartet dich';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
@@ -19,7 +19,7 @@ function init() {
     {
       indexes: ['ich bin noch etwas müde'],
       action: function () {
-        const answer = 'soll ich deine guten Morgen Playlist abspielen';
+        const answer = 'dann trink kaffee du idiot';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
