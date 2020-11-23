@@ -105,18 +105,18 @@ button:focus {
   margin-left: auto;
   background-image: linear-gradient(
     to left,
-    #1d976c 0%,
-    #93f9b9 51%,
-  
+    #00644D 0%,
+    #76b900 51%,
+    #00644D 100%
   );
 }
 
 .userOutput {
   background-image: linear-gradient(
     to left,
-    #1d976c 0%,
-    #93f9b9 51%,
-  
+    #00644D 0%,
+    #76b900 51%,
+    #00644D 100%
   );
 }
 .userInput,
