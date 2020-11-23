@@ -99,20 +99,20 @@ button:focus {
 
 .userInput {
   margin-left: auto;
-  background-image: linear-gradient(
-    to right,
+  background-image: radial-gradient(
+    
     #1d976c 0%,
     #93f9b9 51%,
-    #1d976c 100%
+  
   );
 }
 
 .userOutput {
-  background-image: linear-gradient(
-    to right,
-    #aa076b 0%,
-    #61045f 51%,
-    #aa076b 100%
+  background-image: radial-gradient(
+    
+    #1d976c 0%,
+    #93f9b9 51%,
+  
   );
 }
 .userInput,
