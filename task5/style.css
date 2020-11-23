@@ -10,12 +10,12 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2rem;
   letter-spacing: 0.2rem;
   font-weight: bold;
-  color: white;
-  background-color: #161616;
+  color: rgb(112, 113, 115  );
+  background-color: #ffffff;
 }
 
 main {
