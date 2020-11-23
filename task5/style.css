@@ -66,8 +66,7 @@ h2 {
 }
 
 button {
-  background-image: radial-gradient(
-    
+  background-image: linear-gradient(
     #00644D 0%,
     #76b900 51%,
     #00644D 100%
@@ -99,7 +98,7 @@ button:focus {
 
 .userInput {
   margin-left: auto;
-  background-image: radial-gradient(
+  background-image: linear-gradient(
     
     #1d976c 0%,
     #93f9b9 51%,
@@ -108,7 +107,7 @@ button:focus {
 }
 
 .userOutput {
-  background-image: radial-gradient(
+  background-image: linear-gradient(
     
     #1d976c 0%,
     #93f9b9 51%,
