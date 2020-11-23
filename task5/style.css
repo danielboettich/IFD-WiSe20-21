@@ -27,6 +27,7 @@ main {
 h2 {
   margin-bottom: 8rem;
   font-size: 5rem;
+  color: #707173;
 }
 
 .logo {
@@ -114,9 +115,9 @@ button:focus {
 .userOutput {
   background-image: linear-gradient(
     to left,
-    #00644D 0%,
-    #76b900 51%,
-    #00644D 100%
+    #76b900 0%,
+    #00644D 51%,
+    #76b900 100%,
   );
 }
 .userInput,
