@@ -144,9 +144,9 @@ function init() {
     },
 
     { //gegenfrage 6.1 error
-      indexes: ['Cool Weißt du ob das Mein Kampf von Adolf Hitler verfügbar ist'],
+      indexes: ['Cool Weißt du ob das Buch Hochschule der Zukunft verfügbar ist'],
       action: function () {
-        const answer = 'Ja. Das Buch ist momentan noch ausleihbar';
+        const answer = 'Ja. Das Buch von Ullrich Dittler ist momentan noch ausleihbar';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
