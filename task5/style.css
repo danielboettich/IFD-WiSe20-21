@@ -32,10 +32,10 @@ h2 {
 
 .logo1 {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 .logo {
-  width: 30%;
+  width: 50%;
 }
 
 .startScreen {
@@ -144,4 +144,9 @@ button:focus {
 .userOutput:hover,
 .userInput:hover {
   text-decoration: none;
+}
+
+.endButton {
+  display: flex;
+  justify-content: center;
 }
