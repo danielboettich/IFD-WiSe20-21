@@ -17,7 +17,7 @@ function init() {
       },
     },
 
-    {//gegenfrage 1.1 error
+    {//gegenfrage 1.1 läuft
       indexes: ['Wo findet IFD statt'],
       action: function () {
         const answer = 'im alfaview-Raum DM-05';
@@ -26,7 +26,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 1.2 error
+    { //gegenfrage 1.2 läuft
       indexes: ['Ist für IFD ein Praktikum eingeplant'],
       action: function () {
         const answer = 'Ja, ein Praktikum ist laut Stundenplan angesetzt';
@@ -48,13 +48,13 @@ function init() {
       indexes: ['Irgendwelche Abgaben in den nächsten Tagen'],
       action: function () {
         const answer =
-          'In 3 Tagen ist die Deadline für die Aufgabe 5 in Interface Design. Soll ich dir eine Erinnnerung erstellen';
+          'In 3 Tagen ist die Deadline für die Aufgabe 5 in Interface Design. Soll ich dir eine Erinnnerung erstellen?';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
 
-    { //gegenfrage 2.1 error
+    { //gegenfrage 2.1 läuft
       indexes: ['Ja bitte erinnere mich heute Mittag'],
       action: function () {
         const answer =
@@ -74,7 +74,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 3.1 error
+    { //gegenfrage 3.1 läuft
       indexes: ['Von wem'],
       action: function () {
         const answer =
@@ -84,7 +84,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 3.2 eror
+    { //gegenfrage 3.2 läuft
       indexes: ['Oh super Lies mir die Mail vor'],
       action: function () {
         const answer =
@@ -95,7 +95,7 @@ function init() {
     },
 //------------------
     { //frage 4 error
-      indexes: ['Welcher Dozent hält IFD'],
+      indexes: ['Welcher Dozent unterrichtet interface design'],
       action: function () {
         const answer =
           'Interface Design wird von Prof. Dr. Rausch gehalten';
@@ -114,7 +114,7 @@ function init() {
       },
     },
 
-    { //gegenfrage 5.1 error
+    { //gegenfrage 5.1 läuft
       indexes: ['Ja bitte'],
       action: function () {
         const answer = 'Gern. Für welches Essen soll ich dich anmelden';
@@ -144,7 +144,7 @@ function init() {
     },
 
     { //gegenfrage 6.1 error
-      indexes: ['Cool Weißt du ob das Buch Einstieg in die Medienkommunikationslehre von Christoph Zydorek verfügbar ist'],
+      indexes: ['Cool Weißt du ob das Buch Hochschule der Zukunft von Ullrich Dittler verfügbar ist'],
       action: function () {
         const answer = 'Ja. Das Buch ist momentan noch ausleihbar';
         artyom.say(answer);
