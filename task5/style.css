@@ -67,6 +67,7 @@ h2 {
 
 button {
   background-image: linear-gradient(
+    to left,
     #00644D 0%,
     #76b900 51%,
     #00644D 100%
@@ -99,7 +100,7 @@ button:focus {
 .userInput {
   margin-left: auto;
   background-image: linear-gradient(
-    
+    to left,
     #1d976c 0%,
     #93f9b9 51%,
   
@@ -108,7 +109,7 @@ button:focus {
 
 .userOutput {
   background-image: linear-gradient(
-    
+    to left,
     #1d976c 0%,
     #93f9b9 51%,
   
