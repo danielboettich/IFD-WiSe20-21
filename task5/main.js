@@ -95,7 +95,7 @@ function init() {
     },
 //------------------
     { //frage 4 error
-      indexes: ['Welcher Dozent unterrichtet interface design'],
+      indexes: ['Welcher Dozent hält interfacedesign'],
       action: function () {
         const answer =
           'Interface Design wird von Prof. Dr. Rausch gehalten';
@@ -144,7 +144,7 @@ function init() {
     },
 
     { //gegenfrage 6.1 error
-      indexes: ['Cool Weißt du ob das Buch Hochschule der Zukunft von Ullrich Dittler verfügbar ist'],
+      indexes: ['Cool Weißt du ob das Mein Kampf von Adolf Hitler verfügbar ist'],
       action: function () {
         const answer = 'Ja. Das Buch ist momentan noch ausleihbar';
         artyom.say(answer);
