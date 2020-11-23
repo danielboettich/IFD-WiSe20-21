@@ -5,52 +5,157 @@ window.addEventListener('load', function () {
 function init() {
   const artyom = new Artyom();
   const commands = [
-    {
-      indexes: [
+    { //StartUp
+      indexes: [ //frage 1
         'was erwartet mich heute',
         'Was steht an heute',
       ],
-      action: function () {
-        const answer = 'heute erwartet dich';
+      action: function () { //antwort 1
+        const answer = 'heute erwartet dich Interface Design um 9 Uhr 45';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
-    {
-      indexes: ['ich bin noch etwas müde'],
+
+    {//gegenfrage 1.1
+      indexes: ['Wo findet Interface Design statt'],
       action: function () {
-        const answer = 'dann trink kaffee du idiot';
+        const answer = 'im alfaview-Raum DM-05';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
-    {
-      indexes: ['welche Abgaben habe ich noch offen'],
+
+    { //gegenfrage 1.2
+      indexes: ['Ist für Interface Design ein Praktikum eingeplant'],
+      action: function () {
+        const answer = 'Ja, ein Praktikum ist laut Stundenplan angesetzt';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+    { //gegenfrage 1.3  
+      indexes: ['Sonstige Veranstaltungen heute'],
+      action: function () {
+        const answer = 'Ja, Projektstudium ab 13 Uhr 30';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+//------------------
+    { //frage 2
+      indexes: ['Irgendwelche Abgaben in den nächsten Tagen'],
       action: function () {
         const answer =
-          'Bis Mittwoch, den 11.11.2020, musst du noch die Aufgabe 4 in Interface Design erledigen. Soll ich dir die Aufgabenstellung vorlesen';
+          'In 3 Tagen ist die Deadline für die Aufgabe 5 in Interface Design. Soll ich dir eine Erinnnerung erstellen';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
-    {
-      indexes: ['welche Vorlesungen habe ich heute'],
+
+    { //gegenfrage 2.1
+      indexes: ['Ja, bitte erinnere mich heute Mittag'],
       action: function () {
         const answer =
-          'Du hast heute zwei Blöcke Vorlesung. Zuerst hast du von 09:45 - 11:15 Uhr Interface Design. Im Anschluss hast du noch von 11:15 - 13:15 Uhr die Veranstaltung Streaming Anwendungen';
+          'Okay, ich werde dich erinnern Diggi';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
-    {
-      indexes: ['habe ich neue Nachrichten bekommen'],
+//------------------
+    { //frage 3
+      indexes: ['Habe ich neue Mails'],
       action: function () {
         const answer =
-          'Du hast eine neue E-Mail erhalten. Soll ich dir den Absender und den Betreff vorlesen';
+          'Ja, du hast eine neue Mail.';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
     },
+
+    { //gegenfrage 3.1
+      indexes: ['Von wem?'],
+      action: function () {
+        const answer =
+          'Die Mail kommt von Prof. Hottong, der Betreff lautet "Streamingcamp fällt aus"';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+    { //gegenfrage 3.2
+      indexes: ['Oh, super. Lies mir die Mail vor'],
+      action: function () {
+        const answer =
+          'Hallo liebe Studierende. Ich mache es kurz - aufgrund von Corona wird das Streamingcamp ausfallen. Nähere Infos dann in der Vorlesung morgen. Beste Grüße, Prof. Hottong';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+//------------------
+    { //frage 4
+      indexes: ['Welcher Dozent hält Streaminganwendungen'],
+      action: function () {
+        const answer =
+          'Streaminganwendungen wird von Prof. Hottong gehalten';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+//------------------
+    { //frage 5
+      indexes: ['Was gibt es heute in der Mensa'],
+      action: function () {
+        const answer =
+          'Heute gibt es Putengeschnetzeltes oder Spaghetti Carbonara. Soll ich dich für ein Essen anmelden';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+    { //gegenfrage 5.1
+      indexes: ['Ja, bitte'],
+      action: function () {
+        const answer = 'Gern. Für welches Essen soll ich dich anmelden';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+    { //gegenfrage 5.2
+      indexes: ['Bitte für Spaghetti Carbonara'],
+      action: function () {
+        const answer = 'Okay. Du bist angemeldet. Die Mensa ist ab 11 Uhr 30 geöffnet';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+//------------------
+    { //frage 6
+      indexes: ['hat die Bibliothek heute geöffnet'],
+      action: function () {
+        const answer =
+          'ja, die Bibliothek hat heute von 7 Uhr bis 20 Uhr geöffnet';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+    { //gegenfrage 6.1
+      indexes: ['Cool. Weißt du ob das Buch Einstieg in die Medienkommunikationslehre von Christoph Zydorek verfügbar ist'],
+      action: function () {
+        const answer = 'Ja. Das Buch ist momentan noch ausleihbar';
+        artyom.say(answer);
+        createNewMessageBox(answer, 'userOutput');
+      },
+    },
+
+    
+
+    
+
   ];
 
   document.querySelector('.startButton').addEventListener('click', () => {
