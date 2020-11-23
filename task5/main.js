@@ -180,7 +180,7 @@ function init() {
     }
     startContinuousArtyom();
     const answer =
-      'Hallo Daniel du kleiner Bastard. Was willst du';
+      'Hallo Daniel. Wie kann ich dir heute helfen?';
     artyom.say(answer);
     createNewMessageBox(answer, 'userOutput');
     artyom.redirectRecognizedTextOutput(function (recognized, isFinal) {
@@ -199,7 +199,7 @@ function init() {
     document
       .querySelector('.conversation')
       .classList.remove('active', 'animate__animated', 'animate__fadeIn');
-    artyom.say('Bis bald Benni');
+    artyom.say('Machs gut Daniel');
     artyom.dontObey();
     document.querySelector('.conversation__messages').innerHTML = '';
     console.log('Closed!');
