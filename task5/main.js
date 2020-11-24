@@ -11,7 +11,7 @@ function init() {
         'Was steht an heute',
       ],
       action: function () { //antwort 1
-        const answer = 'heute erwartet dich Interface Design um 9 Uhr 45';
+        const answer = 'Heute erwartet dich Interface Design um 9 Uhr 45';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
@@ -20,7 +20,7 @@ function init() {
     {//gegenfrage 1.1 läuft
       indexes: ['Wo findet IFD statt'],
       action: function () {
-        const answer = 'im alfaview-Raum DM-05';
+        const answer = 'Im alfaview-Raum DM-05';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
@@ -58,7 +58,7 @@ function init() {
       indexes: ['Ja bitte erinnere mich heute Mittag'],
       action: function () {
         const answer =
-          'Okay, ich werde dich erinnern Diggi';
+          'Okay, ich werde dich erinnern';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
@@ -146,7 +146,7 @@ function init() {
     { //gegenfrage 6.1 läuft
       indexes: ['Cool Weißt du ob das Buch Hochschule der Zukunft verfügbar ist'],
       action: function () {
-        const answer = 'Ja. Das Buch von Ullrich Dittler ist momentan noch ausleihbar';
+        const answer = 'Ja. Das Buch Hochschule der Zukunft von Ullrich Dittler ist momentan noch ausleihbar';
         artyom.say(answer);
         createNewMessageBox(answer, 'userOutput');
       },
