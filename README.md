@@ -22,3 +22,8 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task4/task4_Variante1_Dialogflow.pdf">Direktlink zum Dialog Flowchart</a> <br>
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task4/IFD_A4_Boettcher.pdf">Dokumentation</a> 
 <br>Stand: 03.11.2020, 16:50 Uhr
+
+## Task 5 - Umsetzung eines Voice User Interfaces
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/task5/index.html">Direktlink zum HFUBot</a> <br>
+<a href="https://github.com/danielboettich/IFD-WiSe20-21/blob/master/task5/VUI_Screencast.mp4">Screencast (nur als Download verfügbar)</a> 
+<br>Stand: 24.11.2020, 11:40 Uhr
