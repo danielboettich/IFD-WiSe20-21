@@ -134,7 +134,7 @@ function init() {
 
 //------------------
     { //frage 6 läuft
-      indexes: ['hat die Bibliothek heute geöffnet'],
+      indexes: ['Hat die Bibliothek heute geöffnet'],
       action: function () {
         const answer =
           'ja, die Bibliothek hat heute von 7 Uhr bis 20 Uhr geöffnet';
