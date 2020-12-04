@@ -30,4 +30,4 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 
 ## Task 6 - VR Cardboard Brille
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task4/IFD_A6_Boettcher.pdf">Dokumentation</a> 
-<br>Stand: 04.12.2020, 09:10 Uhr
+<br>Stand: 04.12.2020, 09:10 Uhr 
