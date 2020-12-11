@@ -31,3 +31,9 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 ## Task 6 - VR Cardboard Brille
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task6/IFD_A6_Boettcher.pdf">Dokumentation</a> 
 <br>Stand: 04.12.2020, 09:10 Uhr 
+
+## Task 7 - VR Anwendung Konzept & Prototyp
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/task7/Storyboard_VR_A09.png">Storyboard</a> <br>
+<a href="https://youtu.be/RD8bJhVmaiQ">Video-Prototyp</a> 
+<br>Stand: 04.12.2020, 09:10 Uhr
+<br>Anmerkung: Die Qualität des Videos hat leider durch die Komprimierung und den Upload sehr gelitten. 
