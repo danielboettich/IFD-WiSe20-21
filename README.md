@@ -37,3 +37,10 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 <a href="https://youtu.be/RD8bJhVmaiQ">Video-Prototyp</a> 
 <br>Stand: 04.12.2020, 09:10 Uhr
 <br>Anmerkung: Die Qualität des Videos hat leider durch die Komprimierung und den Upload sehr gelitten. 
+
+## Task 8 - Mixed Reality Anwendung - Umsetzung
+<a href="https://app.draftxr.com/vr/ZltOkP">Zum Prototyp in der Draft XR Cloud</a> <br>
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/task8/IFD_MR_Abgabe.xd">Zum XD-Dokument auf Github</a> <br> 
+<a href="https://github.com/danielboettich/IFD-WiSe20-21/tree/master/task8">Link zur Masterdatei</a> 
+<br>Stand: 04.12.2020, 09:10 Uhr
+<br>Anmerkung: Erstellt mit Adobe XD und DraftXR
