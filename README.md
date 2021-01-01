@@ -42,5 +42,5 @@ Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 <a href="https://app.draftxr.com/vr/ZltOkP">Zum Prototyp in der Draft XR Cloud</a> <br>
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task8/IFD_MR_Abgabe.xd">Zum XD-Dokument auf Github</a> <br> 
 <a href="https://github.com/danielboettich/IFD-WiSe20-21/tree/master/task8">Link zur Masterdatei</a> 
-<br>Stand: 04.12.2020, 09:10 Uhr
+<br>Stand: 01.01.2020, 15:25 Uhr
 <br>Anmerkung: Erstellt mit Adobe XD und DraftXR
