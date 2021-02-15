@@ -1,6 +1,14 @@
 # IFD-WiSe20-21
 Repository for Interface Design, Daniel Böttcher, WiSe 2020/2021, OMB 5
 
+## Endabgabe
+Anmerkung: Aufgrund eines Fehlers mit DraftXR konnte nur ein Webprototyp ohne VR-Komponente abgegeben werden. <br>
+<a href="https://xd.adobe.com/view/cc54dd5a-7925-45d5-b0a4-963280c50919-9907/?fullscreen&hints=off">Link zu Webpreview</a> <Br>
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/endabgabe/IFD_Doku_Pruefung.pdf">Link zur Doku</a> <br>
+<a href="https://danielboettich.github.io/IFD-WiSe20-21/endabgabe/IFD_MR_Abgabe_ueberarbeitet.xd">Download Xd-File</a> 
+<br>Stand: 09.10.2020, 15:27 Uhr
+
+
 ## Task 0 - SWOT
 <a href="https://danielboettich.github.io/IFD-WiSe20-21/task0/task0.html">SWOT-Analyse</a> 
 <br>Stand: 09.10.2020, 15:27 Uhr
